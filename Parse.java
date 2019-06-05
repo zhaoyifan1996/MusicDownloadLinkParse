@@ -87,7 +87,7 @@ public class Parse {
 				String id = file.get("media_mid").getAsString();
 				String guid = QQApi.getGUID();
 				String vkey = QQApi.getKey(guid);
-				String link = QQApi.getLink("MP3/320K", id, vkey, guid);
+				String link = QQApi.getLink("MP3/128K", id, vkey, guid);
 				System.out.println(singer + " - " + song + "  《" + album + "》  " + link);
 			}
 		}
